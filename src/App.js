@@ -10,6 +10,7 @@ import Console from './Console';
 import AlertInfo from './AlertInfo';
 import LicznikPlus from './LicznikPlus';
 import Menu from './Menu';
+import ColorChanger from './ColorChanger';
 
 
 class App extends Component {
@@ -33,6 +34,7 @@ class App extends Component {
     <Footer1 />
     <LicznikPlus />
     <Menu />
+    <ColorChanger />
     </div>    
      
   );

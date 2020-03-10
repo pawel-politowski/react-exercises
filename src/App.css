@@ -40,6 +40,14 @@
   border: 2px solid yellow;
 }
 
+.green{
+  background: green;
+}
+
+.blue{
+  background: blue;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
