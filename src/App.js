@@ -7,18 +7,27 @@ import Header from './Header';
 import Header1 from './ClassHeader';
 import TextSection1 from './ClassTextSection';
 import Footer1 from './ClassFooter';
+import Console from './Console';
+import AlertInfo from './AlertInfo';
+
 
 function App() {
   return (
     <div class="container">
-    <Header />
+    <Header 
+    header = 'Tu jest Header - stała wyniesiona poza klasę - później wyniesiona do APP'
+    />
     <Header1 />
     <div>
       Siemaneczko!
     </div>
     <TextSection />
     <TextSection1 />
-    <Footer />
+    <Console 
+    handleClick = {() => { console.log('kliknąłeś w button ')}}/>
+    <AlertInfo />
+    <Footer 
+      footer="Tu jest nasz Pierwszy Footer - stała wyniesiona do APP"/>
     <Footer1 />
     </div>    
      

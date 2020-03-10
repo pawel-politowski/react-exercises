@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-const header = 'Tu jest Header - stała wyniesiona poza klasę';
 
-const Header = () => (
+const Header = (props) => (
     <div>
-     {header}
+     {props.header}
     </div>
 );
 

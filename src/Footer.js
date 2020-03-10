@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Footer = () => (
+
+
+const Footer = (props) => (
     <div>
-        Tu jest Footer...
+        {props.footer} 
+        <br/>
     </div>
 )
 
