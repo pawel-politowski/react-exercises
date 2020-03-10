@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TextSection from './TextSection';
 import Footer from './Footer';
@@ -9,9 +8,12 @@ import TextSection1 from './ClassTextSection';
 import Footer1 from './ClassFooter';
 import Console from './Console';
 import AlertInfo from './AlertInfo';
+import LicznikPlus from './LicznikPlus';
+import Menu from './Menu';
 
 
-function App() {
+class App extends Component {
+  render(){
   return (
     <div class="container">
     <Header 
@@ -29,9 +31,11 @@ function App() {
     <Footer 
       footer="Tu jest nasz Pierwszy Footer - stała wyniesiona do APP"/>
     <Footer1 />
+    <LicznikPlus />
+    <Menu />
     </div>    
      
   );
-}
+}}
 
 export default App;
