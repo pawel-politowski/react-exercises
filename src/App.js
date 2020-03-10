@@ -15,7 +15,7 @@ function App() {
   return (
     <div class="container">
     <Header 
-    header = 'Tu jest Header - stała wyniesiona poza klasę - później wyniesiona do APP'
+      header = 'Tu jest Header - stała wyniesiona poza klasę - później wyniesiona do APP'
     />
     <Header1 />
     <div>
@@ -24,7 +24,7 @@ function App() {
     <TextSection />
     <TextSection1 />
     <Console 
-    handleClick = {() => { console.log('kliknąłeś w button ')}}/>
+      handleClick = {() => { console.log('kliknąłeś w button ')}}/>
     <AlertInfo />
     <Footer 
       footer="Tu jest nasz Pierwszy Footer - stała wyniesiona do APP"/>

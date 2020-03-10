@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
 
-const Console = (props) => {
-    
+const Console = (props) => {    
     return(
     <button onClick={props.handleClick}>
      Klik
