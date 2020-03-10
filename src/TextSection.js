@@ -1,8 +1,10 @@
-import React from 'react';
+import React from 'react';  
+    
+    const textsection = 'tu jest TextSection - stała wyniesiona poza klasę'
 
 const TextSection = () => (
     <div>
-        Tu jest TextSection....
+        {textsection}
     </div>
 )
 

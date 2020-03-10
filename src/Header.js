@@ -1,8 +1,10 @@
 import React from 'react'
 
+const header = 'Tu jest Header - stała wyniesiona poza klasę';
+
 const Header = () => (
     <div>
-     Tu jest Header
+     {header}
     </div>
 );
 
