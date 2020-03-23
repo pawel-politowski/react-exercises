@@ -11,6 +11,8 @@ import AlertInfo from './AlertInfo';
 import LicznikPlus from './LicznikPlus';
 import Menu from './Menu';
 import ColorChanger from './ColorChanger';
+import Consoleplus from './Consoleplus';
+import MenuFunkcje from './MenuRozwijaneFunction';
 
 
 class App extends Component {
@@ -28,6 +30,7 @@ class App extends Component {
     <TextSection1 />
     <Console 
       handleClick = {() => { console.log('kliknąłeś w button ')}}/>
+    <Consoleplus />  
     <AlertInfo />
     <Footer 
       footer="Tu jest nasz Pierwszy Footer - stała wyniesiona do APP"/>
@@ -35,6 +38,8 @@ class App extends Component {
     <LicznikPlus />
     <Menu />
     <ColorChanger />
+
+    <MenuFunkcje />
     </div>    
      
   );
